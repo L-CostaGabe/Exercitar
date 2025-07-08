@@ -1,18 +1,16 @@
-## Getting Started
+# 🚀 Contador de Intervalo em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Um projeto simples para praticar conceitos de **controle de fluxo**, **exceções personalizadas** e **entrada de dados pelo terminal** em Java.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## 📋 Sobre o Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este programa lê dois números inteiros fornecidos pelo usuário e imprime todos os números entre eles. Caso o segundo número seja menor que o primeiro, uma exceção personalizada é lançada para garantir que os parâmetros estejam corretos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ⚙️ Funcionalidades
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- 🔢 Entrada de dados pelo terminal com `Scanner`.
+- 🚨 Tratamento de exceções usando `try/catch`.
+- 🛠️ Criação e uso de exceção personalizada (`ParametrosInvalidosException`).
+- 🔄 Estrutura de repetição (`for`) para percorrer o intervalo
